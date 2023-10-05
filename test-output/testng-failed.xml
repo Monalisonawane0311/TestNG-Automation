@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="failedTestCasesExample.ITransformAnnotation"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/khair/IdeaProjects/TestNgSeleniumExample(failed)">
+    <classes>
+      <class name="failedTestCasesExample.RetryAnalyzerExample">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- failedTestCasesExample.RetryAnalyzerExample -->
+    </classes>
+  </test> <!-- C:/Users/khair/IdeaProjects/TestNgSeleniumExample(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
