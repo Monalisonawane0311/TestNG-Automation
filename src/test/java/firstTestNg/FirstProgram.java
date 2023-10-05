@@ -23,9 +23,10 @@ public class FirstProgram {
     public void testCase2(){
         System.out.println("Test case 2");
     }
-    @Test
-    public void testCase3(){
-        System.out.println("Test case 3");
+
+ @Test
+    public void testCase4(){
+        System.out.println("Test case 4");
     }
     @AfterMethod
     public void test1() {
