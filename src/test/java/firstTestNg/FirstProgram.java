@@ -35,7 +35,10 @@ public class FirstProgram {
     public void afterClass() {
         System.out.println("After class");
     }
- 
+ 	  @AfterTest
+    public void afterTest() {
+        System.out.println("After Test");
+    }
 
 
 }
